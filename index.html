@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MKPOKUNAM LIMITED | Technical Services & Consulting</title>
+    <style>
+        :root {
+            --primary: #0B192C; /* Deep Corporate Navy */
+            --accent: #E1B243; /* Brushed Gold */
+            --text-dark: #1E293B;
+            --bg-light: #F8FAFC;
+            --white: #FFFFFF;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+        body { background-color: var(--bg-light); color: var(--text-dark); line-height: 1.6; }
+        header { background-color: var(--primary); padding: 20px 5%; display: flex; justify-content: space-between; align-items: center; border-bottom: 3px solid var(--accent); }
+        .logo-text { color: var(--white); font-weight: bold; font-size: 1.5rem; letter-spacing: 1px; }
+        .logo-text span { color: var(--accent); }
+        nav a { color: var(--white); text-decoration: none; margin-left: 20px; font-size: 0.95rem; transition: color 0.3s; }
+        nav a:hover { color: var(--accent); }
+        .hero { background: linear-gradient(rgba(11, 25, 44, 0.9), rgba(11, 25, 44, 0.9)), url('data:image/svg+xml,<svg xmlns="http://w3.org" viewBox="0 0 100 100"><text y="50" font-size="10" fill="white" opacity="0.1">MK</text></svg>'); background-size: cover; color: var(--white); text-align: center; padding: 100px 10%; }
+        .hero h1 { font-size: 2.8rem; margin-bottom: 20px; letter-spacing: 1px; }
+        .hero p { font-size: 1.2rem; max-width: 800px; margin: 0 auto 30px; opacity: 0.9; }
+        .cta-btn { background-color: var(--accent); color: var(--primary); padding: 12px 30px; text-decoration: none; font-weight: bold; border-radius: 4px; display: inline-block; transition: background 0.3s; }
+        .cta-btn:hover { background-color: #cf9f32; }
+        .section { padding: 80px 10%; }
+        .section-title { text-align: center; margin-bottom: 50px; font-size: 2rem; color: var(--primary); position: relative; padding-bottom: 15px; }
+        .section-title::after { content: ''; width: 60px; height: 3px; background-color: var(--accent); position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); }
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
+        .service-card { background: var(--white); padding: 40px 30px; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); border-top: 4px solid var(--primary); transition: transform 0.3s; }
+        .service-card:hover { transform: translateY(-5px); border-top-color: var(--accent); }
+        .service-card h3 { margin-bottom: 15px; color: var(--primary); font-size: 1.3rem; }
+        .compliance-box { background-color: var(--primary); color: var(--white); border-radius: 8px; padding: 40px; text-align: center; border-left: 5px solid var(--accent); }
+        .compliance-box h2 { color: var(--accent); margin-bottom: 15px; }
+        footer { background-color: var(--primary); color: var(--white); text-align: center; padding: 40px 5%; font-size: 0.9rem; border-top: 1px solid rgba(255,255,255,0.1); }
+        .footer-creds { margin-top: 15px; opacity: 0.6; font-size: 0.8rem; }
+        @media (max-width: 768px) { .hero h1 { font-size: 2rem; } header { flex-direction: column; gap: 15px; } nav a { margin: 0 10px; } }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-text">MKPO<span>KUNAM</span></div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#compliance">Compliance</a>
+            <a href="mailto:mkpokunamcorporationlimited@gmail.com">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Transforming Industrial Potential Through Technology & Engineering</h1>
+        <p>Delivering high-value multi-disciplinary IT consultancy, technical project procurement, and sustainable infrastructure support across the South-South energy service corridor.</p>
+        <a href="mailto:mkpokunamcorporationlimited@gmail.com" class="cta-btn">Connect With Us</a>
+    </section>
+
+    <section class="section" id="about">
+        <h2 class="section-title">Corporate Overview</h2>
+        <p style="max-width: 800px; margin: 0 auto; text-align: center; font-size: 1.1rem; color: #475569;">
+            MKPOKUNAM LIMITED is a 100% indigenous technical service and consulting firm proudly based within Atabrikang II, Ibeno Local Government Area, Akwa Ibom State. Guided by an agile operational framework, we partner with specialized technical networks and engineering assets to deliver world-class corporate contract execution across diverse industrial sectors.
+        </p>
+    </section>
+
+    <section class="section" style="background-color: #E2E8F0;" id="services">
+        <h2 class="section-title">Core Operational Pillars</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Information Technology</h3>
+                <p>Advanced software development architectures, end-to-end digital transformation consulting, robust network infrastructure design, and tailored hardware automation frameworks.</p>
+            </div>
+            <div class="service-card">
+                <h3>Management Consultancy</h3>
+                <p>Specialized institutional project management, technical procurement strategy, field vendor validation assistance, and complete facility asset optimization frameworks.</p>
+            </div>
+            <div class="service-card">
+                <h3>Civil Infrastructure Support</h3>
+                <p>Local industrial engineering maintenance, structural development execution, and community-centered engineering works designed to satisfy strict operational parameters.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="compliance">
+        <div class="compliance-box">
+            <h2>Fully Aligned Local Content Vendor</h2>
+            <p style="max-width: 700px; margin: 0 auto;">Operating directly from the Ibeno hub, our framework is meticulously aligned with the community development mandates of the Petroleum Industry Act (PIA) and the strict local asset inclusion guidelines of the NOGICD Act.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p><strong>MKPOKUNAM LIMITED</strong></p>
+        <p>Office: No. 1 Primary School Road, Atabrikang II, Ibeno LGA, Akwa Ibom State, Nigeria.</p>
+        <p>Email: mkpokunamcorporationlimited@gmail.com</p>
+        <div class="footer-creds">
+            RC: 9668994 | TIN: 2620346567590 <br>
+            Copyright &copy; 2026 MKPOKUNAM LIMITED. All Rights Reserved.
+        </div>
+    </footer>
+
+</body>
+</html>

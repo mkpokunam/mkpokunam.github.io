@@ -3,100 +3,217 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MKPOKUNAM LIMITED | Technical Services & Consulting</title>
-    <style>
-        :root {
-            --primary: #0B192C; /* Deep Corporate Navy */
-            --accent: #E1B243; /* Brushed Gold */
-            --text-dark: #1E293B;
-            --bg-light: #F8FAFC;
-            --white: #FFFFFF;
-        }
-        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-        body { background-color: var(--bg-light); color: var(--text-dark); line-height: 1.6; }
-        header { background-color: var(--primary); padding: 20px 5%; display: flex; justify-content: space-between; align-items: center; border-bottom: 3px solid var(--accent); }
-        .logo-text { color: var(--white); font-weight: bold; font-size: 1.5rem; letter-spacing: 1px; }
-        .logo-text span { color: var(--accent); }
-        nav a { color: var(--white); text-decoration: none; margin-left: 20px; font-size: 0.95rem; transition: color 0.3s; }
-        nav a:hover { color: var(--accent); }
-        .hero { background: linear-gradient(rgba(11, 25, 44, 0.9), rgba(11, 25, 44, 0.9)), url('data:image/svg+xml,<svg xmlns="http://w3.org" viewBox="0 0 100 100"><text y="50" font-size="10" fill="white" opacity="0.1">MK</text></svg>'); background-size: cover; color: var(--white); text-align: center; padding: 100px 10%; }
-        .hero h1 { font-size: 2.8rem; margin-bottom: 20px; letter-spacing: 1px; }
-        .hero p { font-size: 1.2rem; max-width: 800px; margin: 0 auto 30px; opacity: 0.9; }
-        .cta-btn { background-color: var(--accent); color: var(--primary); padding: 12px 30px; text-decoration: none; font-weight: bold; border-radius: 4px; display: inline-block; transition: background 0.3s; }
-        .cta-btn:hover { background-color: #cf9f32; }
-        .section { padding: 80px 10%; }
-        .section-title { text-align: center; margin-bottom: 50px; font-size: 2rem; color: var(--primary); position: relative; padding-bottom: 15px; }
-        .section-title::after { content: ''; width: 60px; height: 3px; background-color: var(--accent); position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); }
-        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
-        .service-card { background: var(--white); padding: 40px 30px; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); border-top: 4px solid var(--primary); transition: transform 0.3s; }
-        .service-card:hover { transform: translateY(-5px); border-top-color: var(--accent); }
-        .service-card h3 { margin-bottom: 15px; color: var(--primary); font-size: 1.3rem; }
-        .compliance-box { background-color: var(--primary); color: var(--white); border-radius: 8px; padding: 40px; text-align: center; border-left: 5px solid var(--accent); }
-        .compliance-box h2 { color: var(--accent); margin-bottom: 15px; }
-        footer { background-color: var(--primary); color: var(--white); text-align: center; padding: 40px 5%; font-size: 0.9rem; border-top: 1px solid rgba(255,255,255,0.1); }
-        .footer-creds { margin-top: 15px; opacity: 0.6; font-size: 0.8rem; }
-        @media (max-width: 768px) { .hero h1 { font-size: 2rem; } header { flex-direction: column; gap: 15px; } nav a { margin: 0 10px; } }
-    </style>
+    <title>Mkpokunam Limited | Sustainable Industrial & Infrastructure Platform</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <div class="logo-text">MKPO<span>KUNAM</span></div>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#compliance">Compliance</a>
-            <a href="mailto:mkpokunamcorporationlimited@gmail.com">Contact</a>
-        </nav>
+    <!-- Transparent Glassmorphism Navigation -->
+    <header class="main-header">
+        <div class="header-container">
+            <a href="#" class="logo">MKPOKUNAM</a>
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#facts">Facts</a>
+                <a href="#logistics">Logistics</a>
+                <a href="#phase2">Phase 2</a>
+                <a href="#partners">Partners</a>
+            </nav>
+            <a href="coming-soon.html" target="_blank" class="btn-invest">Invest with us</a>
+        </div>
     </header>
 
-    <section class="hero">
-        <h1>Transforming Industrial Potential Through Technology & Engineering</h1>
-        <p>Delivering high-value multi-disciplinary IT consultancy, technical project procurement, and sustainable infrastructure support across the South-South energy service corridor.</p>
-        <a href="mailto:mkpokunamcorporationlimited@gmail.com" class="cta-btn">Connect With Us</a>
-    </section>
-
-    <section class="section" id="about">
-        <h2 class="section-title">Corporate Overview</h2>
-        <p style="max-width: 800px; margin: 0 auto; text-align: center; font-size: 1.1rem; color: #475569;">
-            MKPOKUNAM LIMITED (RC: 9668994) is a fully incorporated, 100% indigenous technical services and multi-disciplinary contracting firm structurally headquartered in Ibeno, Akwa Ibom State, Nigeria. We provide high-impact operational execution across Information & Communication Technology (ICT), engineering support, and specialized corporate procurement consultancy. Anchored firmly within the host community frameworks of the <strong>Petroleum Industry Act (PIA)</strong> and local content guidelines of the <strong>NOGICD Act</strong>, the company delivers secure, compliant, and cost-effective project cycles for community trusts, public institutions, and corporate joint ventures.
-        </p>
-    </section>
-
-    <section class="section" style="background-color: #E2E8F0;" id="services">
-        <h2 class="section-title">Core Operational Pillars</h2>
-        <div class="services-grid">
-            <div class="service-card">
-                <h3>Information Technology</h3>
-                <p>Advanced software development architectures, end-to-end digital transformation consulting, robust network infrastructure design, and tailored hardware automation frameworks.</p>
-            </div>
-            <div class="service-card">
-                <h3>Management Consultancy</h3>
-                <p>Specialized institutional project management, technical procurement strategy, field vendor validation assistance, and complete facility asset optimization frameworks.</p>
-            </div>
-            <div class="service-card">
-                <h3>Civil Infrastructure Support</h3>
-                <p>Local industrial engineering maintenance, structural development execution, and community-centered engineering works designed to satisfy strict operational parameters.</p>
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-bg"></div> 
+        <div class="hero-overlay"></div>
+        <div class="hero-content text-reveal">
+            <span class="badge">AN INDIGENOUS NIGERIAN COMPANY WITH GLOBAL AMBITION</span>
+            <h1>Connecting Nigerian Resources <br><span class="text-gradient">to Global Industry</span></h1>
+            <p>Mkpokunam Limited connects indigenous Nigerian resources, technical capabilities, and commercial opportunities with local and international partners across energy, infrastructure, technology, trade, and project development.</p>
+            <div class="hero-actions">
+                <a href="coming-soon.html" target="_blank" class="btn-primary" style="text-decoration: none !important;">Invest with us</a>
+                <button class="btn-secondary">Learn more</button>
             </div>
         </div>
     </section>
 
-    <section class="section" id="compliance">
-        <div class="compliance-box">
-            <h2>Fully Aligned Local Content Vendor</h2>
-            <p style="max-width: 700px; margin: 0 auto;">Operating directly from the Ibeno hub, our framework is meticulously aligned with the community development mandates of the Petroleum Industry Act (PIA) and the strict local asset inclusion guidelines of the NOGICD Act.</p>
+    <!-- About Section with Reveal Animations -->
+    <section id="about" class="about-section scroll-reveal">
+        <div class="container">
+            <span class="section-tag">About</span>
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2>About Mkpokunam</h2>
+                    <p class="highlight-text">An Indigenous Nigerian Company Built for Industrial, Technical and Commercial Opportunities.</p>
+                    <P>MKPOKUNAM LIMITED is a Nigerian owned company operating across technology, engineering, infrastructure, energy, procurement and international trade. We develop and coordinate solutions that connect local capabilities and resources with commercial opportunities across Nigeria and international markets.</P>
+                    <p>Our activities span digital and software solutions, engineering and infrastructure services, energy and renewable systems, project consultancy, procurement, agricultural activities, facility management, research and development, and import and export.</p>
+                    <P>With a strategic presence in Akwa Ibom, one of Nigeria’s major energy-producing regions. we are positioned to participate in the development of energy, industrial and supply chain opportunities while building partnerships with local and international enterprises.</P>
+                </div>
+                <div class="about-visual">
+                    <img src="images/Rig.png" alt="Industrial Technology Center" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                </div>
+            </div>
         </div>
     </section>
 
-    <footer>
-        <p><strong>MKPOKUNAM LIMITED</strong></p>
-        <p>Office: No. 1 Primary School Road, Atabrikang II, Ibeno LGA, Akwa Ibom State, Nigeria.</p>
-        <p>Email: mkpokunamcorporationlimited@gmail.com</p>
-        <div class="footer-creds">
-            RC: 9668994 | TIN: 2620346567590 <br>
-            Copyright &copy; 2026 MKPOKUNAM LIMITED. All Rights Reserved.
+    <!-- Fast Facts / High-Impact Metric Grid -->
+    <section id="facts" class="facts-section">
+        <div class="container">
+            <span class="section-tag">Let's talk facts</span>
+            <div class="metrics-grid">
+                <div class="metric-card scroll-reveal">
+                    <div class="metric-num" data-target="38">INDIGENOUS</div>
+                    <h3>NIGERIAN RESOURCE BASE</h3>
+                    <p>Connecting local resources and capabilities with commercial opportunities across energy, agriculture, industry, and technology.</p>
+                </div>
+                <div class="metric-card scroll-reveal">
+                    <div class="metric-num" data-target="6">MULTI-SECTOR</div>
+                    <h3>NDUSTRIAL CAPABILITIES</h3>
+                    <p>Supporting projects and commercial activities across energy, infrastructure, technology, trade, agriculture, and engineering.</p>
+                </div>
+                <div class="metric-card scroll-reveal">
+                    <div class="metric-num" data-target="100">GLOBAL</div>
+                    <h3>MARKET CONNECTIVITY</h3>
+                    <p>Building partnerships that connect Nigerian resources, products, and capabilities with local, regional, and international markets.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Logistics Control Screen -->
+    <section id="logistics" class="logistics-section">
+        <div class="container">
+            <span class="section-tag">TRADE & SUPPLY</span>
+            <h2>A safe, clean business environment connected to the world</h2>
+            
+            <div class="logistics-dashboard">
+                <div class="vessel-list">
+                    <div class="vessel-item active" data-vessel="v1">
+                        <div class="vessel-header">
+                            <span class="vessel-id">FOOD SECURITY & INVESTMENT</span>
+                            <span class="status-indicator live">AGRICULTURE</span>
+                        </div>
+                        <p><strong>Task:</strong> Fertile land and strong agricultural potential create opportunities for food production, procurement and investment.</p>
+                        <div class="vessel-meta">  
+                        </div>
+                    </div>
+                    <div class="vessel-item" data-vessel="v2">
+                        <div class="vessel-header">
+                            <span class="vessel-id">CONNECTED BY LAND, AIR & SEA</span>
+                            <span class="status-indicator waiting">LOGISTICS</span>
+                        </div>
+                        <p><strong>Task:</strong> Strategic access to international aviation, road networks and developing maritime infrastructure supports efficient movement of goods.</p>
+                        <div class="vessel-meta">
+                        </div>
+                    </div>
+                </div>
+                <div class="logistics-map">
+                    <div class="map-placeholder">
+                        <div class="map-node base-hub">AGRICULTURAL SUPPLY</div>
+                        <div class="map-node sbm-mooring">LOGISTICS NETWORK </div>
+                        <div class="pulse-line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Split-Screen Sticky Scrollytelling Component -->
+    <section id="phase2" class="scrollytelling-container">
+        <!-- Left Side: Normal Scrolling Descriptions -->
+        <div class="left-text-panel">
+            <span class="section-tag">Future Directions</span>
+            <h2>Exploring new possibilities while expanding on old.</h2>
+            
+            <div class="step-card active" data-step="1">
+                <span class="step-num">01</span>
+                <h3>ENERGY & INDUSTRIAL</h3>
+                <p>Developing opportunities across Nigeria’s energy and industrial value chains, with a focus on resource access, supply partnerships, processing, and sustainable industrial growth.</p>
+            </div>
+            
+            <div class="step-card" data-step="2">
+                <span class="step-num">02</span>
+                <h3>INFRASTRUCTURE & ENGINEERING</h3>
+                <p>Supporting the development of resilient infrastructure through engineering, project coordination, construction, and strategic partnerships across emerging industrial environments.</p>
+            </div>
+            
+            <div class="step-card" data-step="3">
+                <span class="step-num">03</span>
+                <h3>DIGITAL & TECHNOLOGY</h3>
+                <p>Building digital solutions that enable smarter operations, data-driven decision-making, automation, and technology-led transformation across industries.</p>
+            </div>
+             <!-- 🚀 FIXED LAYER 04: DIV REMAINS OPEN TO NEST ALL TEXT BLOCKS SAFELY -->
+            <div class="step-card" data-step="4">
+                <span class="step-num">04</span>
+                <h3>PROJECT CONSULTANCY</h3>
+                <p>Providing strategic guidance, project planning, technical coordination, and implementation support to help turn complex ideas into practical outcomes.</p>
+            </div> <!-- 🚀 CARD SECURELY CLOSES HERE AFTER CONTENT -->
+        </div>
+
+        <!-- Right Side: Sticky Screen Media Tracker -->
+        <div class="right-image-panel">
+            <div class="sticky-image-wrapper">
+                <div class="slide-img active" id="img-1" style="background-color: #1a2333;"></div>
+                <div class="slide-img" id="img-2" style="background-color: #132b26;"></div>
+                <div class="slide-img" id="img-3" style="background-color: #2c1a33;"></div>
+                <div class="slide-img" id="img-4" style="background-color: #1a2c33;"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Infinite Carousel / Logo Ticker -->
+    <section id="partners" class="partners-section">
+        <div class="container">
+            <span class="section-tag">Partners</span>
+            <h2>Global Institutional Alliances</h2>
+        </div>
+        <div class="ticker-wrap">
+            <div class="ticker">
+                <div class="ticker-item">IZZIPET Oil Services Ltd</div>
+                <div class="ticker-item">Oilskills Onshore and Offshore Limited</div>
+                <div class="ticker-item">Heavy Industrial Engineering Group</div>
+                <div class="ticker-item">Continental Finance Corporations</div>
+                <div class="ticker-item">Architectural Master Planning Labs</div>
+                <!-- Duplicate for seamless looping -->
+                <div class="ticker-item">IZZIPET Oil Services Ltd</div>
+                <div class="ticker-item">Oilskills Onshore and Offshore Limited</div>
+                <div class="ticker-item">Heavy Industrial Engineering Group</div>
+                <div class="ticker-item">Continental Finance Corporations</div>
+                <div class="ticker-item">Architectural Master Planning Labs</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modern Architecture Footer -->
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h3>MKPOKUNAM</h3>
+                <p>Leading the next generation of infrastructure engineering ecosystems safely and cleanly.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Core Layout</h4>
+                <a href="#about">About</a>
+                <a href="#facts">Facts</a>
+                <a href="#logistics">Trad & supply</a>
+                <a href="#phase2">Development</a>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Vector</h4>
+                <p>No. 1 Primary School Road, Atabrikang II, Akwa Ibom State, Nigeria</p>
+                <p>Email: <a href="mailto:info@mkpokunam.com" class="contact-link">info@mkpokunam.com</a></p>
+                <p>
+                    <a href="tel:+2349026998901" id="phone-link" class="contact-link">+234 902 699 8901</a>
+                    <small id="copy-toast" class="toast-hidden">(Copied!)</small>
+                </p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Mkpokunam Limited. All rights reserved. | RC: 9668994 | TIN: 2620346567590</p>
         </div>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
